@@ -1,0 +1,93 @@
+/* Minimal, clean style (Stockholm vibe) */
+:root {
+  --bg: #0b0c0e;
+  --fg: #e7e7e7;
+  --muted: #a0a3a8;
+  --card: #111216;
+  --line: #1b1d22;
+  --radius: 16px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.hero {
+  padding-top: 48px;
+  text-align: center;
+}
+
+h1 { font-size: 2.4rem; margin: 0 0 8px; letter-spacing: 0.3px; }
+h2 { font-size: 1.6rem; margin: 32px 0 16px; }
+h3 { margin: 12px 0 8px; }
+
+.tagline { color: var(--muted); margin-bottom: 12px; }
+
+.links a {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 8px 12px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--fg);
+  font-size: 0.95rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tags span {
+  padding: 4px 10px;
+  background: #15171d;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.actions { display: flex; gap: 8px; margin-top: 6px; }
+.actions a {
+  text-decoration: none;
+  color: var(--fg);
+  border: 1px solid var(--line);
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #15171d;
+}
+
+.footer { text-align: center; color: var(--muted); padding-bottom: 32px; }

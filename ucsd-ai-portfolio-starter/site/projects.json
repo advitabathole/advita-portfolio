@@ -1,0 +1,39 @@
+[
+  {
+    "title": "UCSD Enrollment Chatbot",
+    "tech": [
+      "Python",
+      "RAG",
+      "FastAPI",
+      "OpenAI API"
+    ],
+    "summary": "Answers UCSD class & housing FAQs using retrieval-augmented generation.",
+    "github": "https://github.com/YOUR-USERNAME/advita-portfolio",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "UCSD Landmarks Vision",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Computer Vision"
+    ],
+    "summary": "Classifies Geisel, Price Center, Sun God from images. Includes data pipeline and training scripts.",
+    "github": "https://github.com/YOUR-USERNAME/advita-portfolio",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "Triton Eats Predictor",
+    "tech": [
+      "Python",
+      "scikit-learn",
+      "NLP"
+    ],
+    "summary": "Predicts dining-hall menu ratings from text reviews and features; includes baseline and tuned models.",
+    "github": "https://github.com/YOUR-USERNAME/advita-portfolio",
+    "demo": "",
+    "image": ""
+  }
+]
